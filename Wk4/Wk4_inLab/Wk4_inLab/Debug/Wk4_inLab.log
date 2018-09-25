@@ -1,0 +1,6 @@
+﻿  Passenger.cpp
+c:\users\welcomemymaster\source\repos\wk4_inlab\wk4_inlab\passenger.cpp(20): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: see declaration of 'strcpy'
+c:\users\welcomemymaster\source\repos\wk4_inlab\wk4_inlab\passenger.cpp(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: see declaration of 'strcpy'
+  Wk4_inLab.vcxproj -> C:\Users\welcomemymaster\source\repos\Wk4_inLab\Debug\Wk4_inLab.exe

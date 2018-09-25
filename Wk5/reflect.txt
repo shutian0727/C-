@@ -1,0 +1,6 @@
+1. It's because operator+= function return *this which is the current object.
+2. Temporary objcet: (a+b), (b+d), (b+=d).
+4. I can create a private function about validating the numerator and denominator, becuase the validation of numbers has appeared in member functions many times.
+5. I have learnt how to overload an operator as a member function of a class type. 
+I know how to access the current object using *this.I know how to use temporaroy objects.
+

@@ -1,0 +1,3 @@
+1. If we neglect to check for self-assignment, the deallocation statement would release the memory holding the resource data and we would lose access to the source resource resulting in our logic failing at grade[i] = source.grade[i].
+2. To avoid duplication and thereby improve maintainability we can localize the logic in a private member function - localize the common code in a private member function and call that member function from both the copy constructor and the copy assignment operator.
+3. I have learnt how to define a copy constructor, copy assignment operator and a destructor. To avoid duplication, I know I can put the common code inside a private function and then call it.

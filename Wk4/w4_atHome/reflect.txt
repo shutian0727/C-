@@ -1,0 +1,11 @@
+1. Safe empty state is initialising an object's instance variables in a constructor ensures that the object has a well-defined state from the time of its creation. If objects are in safe empty state, the objects do not break and behave as expected. Foe example, the Passenger type in this workshop, I can also set year, month and date to 0 as a safe empty state, because 0 of date represent it's not null and waiting to be initialised to a meaningful date.
+
+2. I just put the duplicated code inside the function and then call the function. If the code need to be updated or changed, we can just update the code inside the function for one time.
+
+3. C++ compilers apply privacy at the class level. Any member function can access any private member of its class, including any data member of any instance of its class, the privacy is not implemented at the individual object level. Hence, the canTravelWith(...) member function can access the private data of the object referenced in its parameter.
+
+4. When we use strncpy, we should add null terminator at the end of the array.
+5. I have learnt how to define constructors that initialise the data at creation time. I know how to define a default constructor that sets an object to a safe empty state. I know how to overload a constructor.
+
+Quiz 1&2 Reflection
+In the quiz1 and quiz2, I only made one mistake which was to add the word = nullptr after delete[] word. I shouldn't add the last one which the  pointer has already been initialised, so, in this case, I don't need to write it again. For the rest, I fully understand the purpose of using a namespace, the reason why header files are not compiled and use of dynamic memory.

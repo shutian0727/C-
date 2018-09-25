@@ -1,0 +1,37 @@
+
+
+
+
+1)There are three elements are there in each C-style character string that stores a family or given name for the account. 
+The three elements are type"char", string name, and number of characters, the MAX_NAME_LENGTH+1, because MAX_NAME_LENGTH represents the quantity of characters and the string still 1 character which is '\0' at the end. 
+
+2)Your class declares two member functions named set(...).  In C, this would generate an error.  Name the feature of C++ that allows this.
+The feature of C++ defined this situation as function overloading, the C++ then will distinguish function definition by different number and type of parameters in each set() function. 
+So, there would be no errors shown. But the overloaded functions will not be allowed in C.
+
+
+3)What have you learned during this workshop?
+
+I have learned to define class type, how to instantiate an object of class type and how to access data within an object, and also how to build overloading function, and the dynamic memory in functions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

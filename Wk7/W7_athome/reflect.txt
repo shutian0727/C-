@@ -1,0 +1,4 @@
+1. Hero class doesn't need to know about the existence of SuperHero class because the word "SuperHero" doesn't appear in Hero.cpp. 
+2. However, SuperHero class knows the existence of Hero class because the word "Hero" appears in SuperHero.cpp.
+3. It prints out "AncientBattle!".
+4. The first one is valid. The second one is invalid.

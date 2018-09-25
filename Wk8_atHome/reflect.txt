@@ -1,0 +1,7 @@
+1. An abstract class is a base class that defines an interface, while a concrete class is a derived class that implements that interface.  
+The abstract class identifies the member functions that the class hierarchy exposes to its clients and is the gateway to testing the derived classes in its own inheritance hierarchy.  
+Each concrete class gives a specific meaning to the interface.
+2. ChequingAccount: Debit(),Credit(); Account:Credit*),Debit().
+3. I have learnt how to define a pure virtual function to create an abstract base class. I know how to implement behavior specified in a pure virtual function. 
+I understand the difference between abstract class and concrete class.
+

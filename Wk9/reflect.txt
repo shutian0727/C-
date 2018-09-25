@@ -1,0 +1,2 @@
+4. Are the following equivalent?  template<class T>  template<typename T>  
+Yes, they are equal. typenames and class are interchangable in templated function at C++.
